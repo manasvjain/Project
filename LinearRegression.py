@@ -28,5 +28,5 @@ print("Intercept:", model.intercept_)
 # Prediction
 y_pred = model.predict(X_test)
 
-# Accuracy (R² score)
+# Accuracy 
 print("Model Accuracy:", model.score(X_test, y_test))
